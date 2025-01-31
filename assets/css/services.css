@@ -1,0 +1,40 @@
+   /* Dropdown styling */
+   .custom-dropdown {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    width: 600px;
+    /* Adjust width for dropdown */
+    padding: 0;
+  }
+
+  /* Vertical Divider Line */
+  .vertical-divider {
+    border-left: 1px solid #000;
+    /* Visible black line */
+    height: auto;
+    /* Let height adjust with content */
+    width: 0;
+    /* No width for the divider */
+    margin: 0 15px;
+    /* Space between sections */
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  /* Dropdown Sections */
+  .dropdown-header {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #000;
+  }
+
+  /* Flex container alignment */
+  .d-flex {
+    align-items: stretch;
+    /* Ensure both sections and divider align properly */
+  }
