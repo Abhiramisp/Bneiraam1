@@ -6,7 +6,7 @@
         <div class="alert alert-success"><?php echo $this->session->flashdata('success'); ?></div>
     <?php endif; ?>
 
-    <form method="POST" action="<?php echo base_url('index.php/payment'); ?>" class="shadow-lg p-4 rounded bg-light">
+    <form method="POST" action="<?php echo base_url('index.php/formcontroller/submit_form'); ?>" class="shadow-lg p-4 rounded bg-light">
         <div class="form-group mb-3">
             <label for="name" class="font-weight-bold">Full Name</label>
             <input type="text" name="name" class="form-control" value="<?php echo set_value('name'); ?>" placeholder="Enter your full name">

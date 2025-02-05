@@ -48,7 +48,7 @@ class FormController extends CI_Controller {
 
             // Redirect or show success message
             $this->session->set_flashdata('success', 'Form submitted successfully!');
-            redirect('formcontroller/index');
+            redirect('payment');
         }
     }
 }
